@@ -1,0 +1,195 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <link href="./css/style.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+    integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.min.js"
+    integrity="sha384-fbbOQedDUMZZ5KreZpsbe1LCZPVmfTnH7ois6mU1QK+m14rQ1l2bGBq41eYeM/fS"
+    crossorigin="anonymous"></script>
+
+  <link rel="icon" type="harbingerlogo" href="/images/image002.jpg">
+  <title>Home</title>
+</head>
+
+<body>
+
+  <!-- Button trigger modal -->
+
+
+  <nav class="navbar navbar-expand-lg navbar-light d-flex">
+    <div class="container-fluid">
+      <a class="navbar-brand " style="color: #2D4564;" href="#">
+        <img src="/image002.jpg" alt="Logo" width="60" height="30" class="d-inline-block align-text-top">
+        Harbinger Group
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse d-flex justify-content-between" id="navbarNav">
+        <ul class="navbar-nav m-auto ms-auto TextColor ">
+          <li class="nav-item">
+            <a class="nav-link text-center" style="color: #2D4564;" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-center" style="color: #2D4564;" href="#blog">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-center" style="color: #2D4564;" href="#contacts">Contacts</a>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+  </nav>
+  <!-- Button trigger modal -->
+  <div class="carddiv ">
+  <div class="card" style="width: 18rem;">
+    <img src="java.jpg" class="card-img-top image" alt="java">
+    <div class="card-body">
+      <h5 class="card-title">Java</h5>
+      <p class="card-text">Java is a widely-used programming language that was originally developed by Sun Microsystems
+        and is now maintained by Oracle.</p>
+        <div class="mt-auto"><button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#java">
+        More Info
+      </button>
+      <button type="button" class="btn btn-primary" onclick="window.location.href='../templates/java.html'">
+        Documentation </button></div>
+
+    </div>
+  </div>
+  <div class="card" style="width: 18rem; ">
+    <img src="js.png" class="card-img-top image" alt="java">
+    <div class="card-body">
+      <h5 class="card-title">JavaScript</h5>
+      <p class="card-text">JavaScript can be used for a wide range of purposes, including creating interactive web
+        pages.</p>
+        <div class="mt-auto">
+      <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#javascript">
+        More Info
+      </button>
+      <button type="button" class="btn btn-primary" onclick="window.location.href='../templates/javasc.html'">
+        Documentation </button></div>
+    </div>
+  </div>
+  <div class="card" style="width: 18rem;">
+    <img src="react.png" class="card-img-top image" alt="java">
+    <div class="card-body">
+      <h5 class="card-title">React</h5>
+      <p class="card-text">React is a popular JavaScript library used for building user interfaces (UIs). It was
+        developed by Facebook and has gained significant adoption in the web development community.</p>
+        <div class="mt-auto">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#react">
+        More Info
+      </button>
+      <button type="button" class="btn btn-primary" onclick="window.location.href='../templates/React.html'">
+        Documentation </button></div>
+    </div>
+  </div>
+</div>
+
+  <!-- Modal -->
+  <div class="modal fade" id="java" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Java</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <ul>
+            <li>To develop Java applications, you need to install the Java Development Kit (JDK), which includes the
+              Java compiler (javac) and the Java Virtual Machine (JVM). The JDK provides the necessary tools to write,
+              compile, and run Java programs.
+              One of Java's key features is its platform independence. Java programs can run on any device or operating
+              system with a Java Virtual Machine (JVM). This "write once, run anywhere" capability allows developers to
+              create cross-platform applications.</li>
+            <li>Platform Independence</li>
+            <li>Object-Oriented Programming (OOP)</li>
+            <li> Syntax and Structure</li>
+            <li> Robust and Secure</li>
+            <li> Java Development Kit (JDK)</li>
+          </ul>
+          <iframe width="450" height="315" src="https://www.youtube.com/embed/YXgXw25E5RU" frameborder="0"
+            allowfullscreen></iframe>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="javascript" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">JavaScript</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>JavaScript can be used for a wide range of purposes, including creating interactive web pages, developing
+            web applications, building mobile apps, creating server-side applications using frameworks like Node.js, and
+            even scripting tasks outside the web environment.</p>
+          <ul>
+            <li>Asynchronous Programming</li>
+            <li>Libraries and Frameworks</li>
+            <li>Versatile Language</li>
+            <li>Client-Side Scripting</li>
+          </ul>
+          <iframe width="450" height="315" src="https://www.youtube.com/embed/W6NZfCO5SIk" frameborder="0"
+            allowfullscreen></iframe>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="modal fade" id="react" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">React</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>React is a popular JavaScript library used for building user interfaces (UIs). It was developed by Facebook
+            and has gained significant adoption in the web development community. </p>
+          <ul>
+            <li>Component-Based Architecture</li>
+            <li>State Management</li>
+            <li>Virtual DOM</li>
+            <li>Unidirectional Data Flow</li>
+            <li>Reusability and Composition</li>
+          </ul>
+          <iframe width="450" height="315" src="https://www.youtube.com/embed/SqcY0GlETPk" frameborder="0"
+            allowfullscreen></iframe>
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+</body>
+
+</html>

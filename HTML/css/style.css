@@ -1,0 +1,34 @@
+.TextColor{
+    color: #2D4564;
+}
+section.card {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+  }
+
+  .carddiv {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    padding-top: 10px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    
+  }
+  .card-body{
+    height:16em;
+  }
+  .card-img-top {
+    height: 200px; /* Adjust the desired height */
+    object-fit: cover;
+  }
+  
+  .card-body {
+    flex-grow: 1;
+  }
+  
