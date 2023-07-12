@@ -1,0 +1,30 @@
+<html>
+
+<head>
+    <title>
+        DOM EXAMPLE</title>
+</head>
+
+<body>
+    <script type="text/javascript">
+        function totalelement() {
+            var allgenders = document.getElementsByName("gender");
+            alert("Total Genders" + allgenders.length);
+        }
+    </script>
+
+    <form>
+        Male:<input type="radio" name="gender" value="male">
+        female:<input type="radio" name="gender" value="female">
+
+        Lgbt:<input type="radio" name="gender" value="lgbt">
+        <input type="button" onclick="totalelement()" value="Total Genders">
+
+    </form>
+
+
+
+</body>
+
+</html>
+
